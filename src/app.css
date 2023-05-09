@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-	@apply bg-black text-white;
-}
-
 button {
 	@apply border py-2 px-8 text-gray-300 border-gray-300 hover:text-black hover:bg-white hover:border-white rounded-lg text-sm transition-colors duration-200;
 }

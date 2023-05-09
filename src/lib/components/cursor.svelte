@@ -15,9 +15,10 @@
 	<circle
 		cx={$coordsPoint.x}
 		cy={$coordsPoint.y}
-		fill="white"
-		r="10px"
-		filter="url(#blur)"
+		fill="none"
+		stroke="white"
+		stroke-width="3px"
+		r="20px"
 		viewBox="200 200 200 200"
 	/>
 	<circle
@@ -26,7 +27,6 @@
 		fill="none"
 		stroke="white"
 		r="40px"
-		filter="url(#blur)"
 		viewBox="200 200 200 200"
 	/>
 </svg>

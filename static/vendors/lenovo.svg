@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="119"
+   height="44"
+   viewBox="0 0 119 43.98"
+   shape-rendering="geometricPrecision"
+   image-rendering="optimizeQuality"
+   fill-rule="nonzero"
+   version="1.1"
+   id="svg1611"
+   sodipodi:docname="lenovo.svg"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1615" />
+  <sodipodi:namedview
+     id="namedview1613"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.6818182"
+     inkscape:cx="109.62712"
+     inkscape:cy="22.745763"
+     inkscape:window-width="1309"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1611" />
+  <path
+     d="M3.13 40.62h111.72V3.38H3.13z"
+     fill="#d42e12"
+     id="path1607"
+     style="fill:#000000" />
+  <path
+     d="M51.8 15.94c-1.65 0-3.52.76-4.67 2.29h0 0v-2.05H43.2v14.33h3.93v-8.16c0-1.46 1.14-3.03 3.24-3.03 1.63 0 3.32 1.14 3.32 3.03v8.16h3.93v-8.89c0-3.29-2.36-5.68-5.82-5.68h0zm33.8.24l-3.57 9.76-3.55-9.76h-4.5l5.9 14.33h4.31l5.91-14.33zM31.44 20.5c.68-.91 1.74-1.44 3.03-1.44 1.42 0 2.49.82 3.05 2.01l-6.88 2.85c-.18-1.46.19-2.6.8-3.42zm7.57 5.6c-1.66 1.23-2.61 1.52-4.12 1.52-1.36 0-2.42-.42-3.17-1.16l10.06-4.18c-.22-1.55-.81-2.94-1.72-3.99-1.32-1.54-3.28-2.35-5.66-2.35-4.33 0-7.59 3.19-7.59 7.41 0 4.32 3.27 7.4 8.02 7.4 2.67 0 5.39-1.26 6.67-2.74l-2.49-1.91h0zm-12.58.79h-8.94v-15H13.5v18.62h12.93zm70.73-7.58c-2.2 0-3.8 1.66-3.8 4.03 0 2.26 1.69 4.04 3.85 4.04 2.2 0 3.79-1.72 3.79-4.04 0-2.26-1.68-4.03-3.84-4.03zm0 11.44c-4.31 0-7.68-3.21-7.68-7.41 0-4.15 3.4-7.4 7.73-7.4 4.3 0 7.67 3.2 7.67 7.4 0 4.16-3.38 7.41-7.72 7.41h0zM66.85 19.31c-2.19 0-3.78 1.66-3.78 4.03 0 2.26 1.69 4.04 3.84 4.04 2.2 0 3.79-1.72 3.79-4.04 0-2.26-1.69-4.03-3.85-4.03zm0 11.44c-4.3 0-7.67-3.21-7.67-7.41 0-4.15 3.39-7.4 7.73-7.4 4.3 0 7.68 3.2 7.68 7.4 0 4.16-3.4 7.41-7.74 7.41h0zm40.05-2.3h.42l.62.97.63-.97h.41v2.06h-.38v-1.47l-.65.99h-.03l-.64-.99v1.47h-.38v-2.06zm-1.48.36h-.63v-.36h1.66v.36h-.63v1.7h-.4v-1.7h0z"
+     fill="#fefefe"
+     id="path1609" />
+</svg>

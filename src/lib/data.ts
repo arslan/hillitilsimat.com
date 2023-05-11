@@ -1,53 +1,75 @@
-import { GlobeAlt, DevicePhoneMobile, ServerStack, WrenchScrewdriver } from '@steeze-ui/heroicons';
-
 export const servicesData = [
 	{
 		title: 'Software',
 		description:
 			'Our software development services are designed to create modern, responsive, and user-friendly websites and apps that help businesses achieve their goals online.',
-		linkTitle: 'Web & App delvelopment',
-		href: '/software',
 		accentColor: 'hover:text-green-600',
-		gradientColor: 'from-green-600 to-green-900',
-		borderColor: 'border-green-900',
-		textColor: 'text-white',
 		serviceList: [
 			{
-				iconSrc: GlobeAlt,
-				header: 'Web',
-				description:
-					'We create modern, responsive, and user-friendly websites and e-commerce platforms that help businesses achieve their goals.'
+				name: 'Web Development',
+				href: '/webdev'
 			},
 			{
-				iconSrc: DevicePhoneMobile,
-				header: 'Mobile',
-				description:
-					'Whether you need a simple iOS/Android app or a complex solution, we are here to help you turn your ideas into reality.'
+				name: 'App Development',
+				href: '/appdev'
+			},
+			{
+				name: 'UI/UX Design',
+				href: '/ui-ux-design'
 			}
 		]
 	},
 	{
 		title: 'Hardware',
-		description: 'Hardware',
-		linkTitle: 'Hardware pocurement & installation',
-		href: '/hardware',
+		description:
+			'Need hardware for your business? Hilli Tilsimat can help. We source, install, and maintain quality and affordable hardware systems from top vendors. Let us handle your hardware so you can focus on your work.',
 		accentColor: 'hover:text-blue-600',
-		gradientColor: 'from-blue-600 to-blue-900',
-		borderColor: 'border-blue-900',
-		textColor: 'text-white',
 		serviceList: [
 			{
-				iconSrc: ServerStack,
-				header: 'Web',
-				description:
-					'We create modern, responsive, and user-friendly websites and e-commerce platforms that help businesses achieve their goals.'
+				name: 'Procurement',
+				href: '/hardware-procurement'
 			},
 			{
-				iconSrc: WrenchScrewdriver,
-				header: 'Mobile',
-				description:
-					'Whether you need a simple iOS/Android app or a complex solution, we are here to help you turn your ideas into reality.'
+				name: 'Installation',
+				href: '/hardware-installation'
+			},
+			{
+				name: 'IT Support',
+				href: 'it-support'
+			},
+			{
+				name: 'Wired & Wireless Networks',
+				href: '/wired-wireless-networks'
 			}
 		]
 	}
+];
+
+export const vendorLogoList = [
+	'vendors/3cx.svg',
+	'vendors/apc.svg',
+	'vendors/canon.svg',
+	'vendors/checkpoint.svg',
+	'vendors/cisco.svg',
+	'vendors/citrix.svg',
+	'vendors/dell.svg',
+	'vendors/dellemc.svg',
+	'vendors/dlink.svg',
+	'vendors/epson.svg',
+	'vendors/fujitsu.svg',
+	'vendors/hcl.svg',
+	'vendors/hpe.svg',
+	'vendors/huawei.svg',
+	'vendors/kingston.svg',
+	'vendors/legrand.svg',
+	'vendors/lenovo.svg',
+	'vendors/microsoft.svg',
+	'vendors/nec.svg',
+	'vendors/netapp.svg',
+	'vendors/nvidia.svg',
+	'vendors/panasonic.svg',
+	'vendors/poly.svg',
+	'vendors/sony.svg',
+	'vendors/transcend.svg',
+	'vendors/tripplite.svg'
 ];

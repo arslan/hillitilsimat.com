@@ -1,8 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import Cursor from '$lib/components/cursor.svelte';
 	import Logo from '$lib/images/logo.svelte';
-	import LogoWider from '$lib/images/logo-wider.svelte';
 	import '@fontsource/ibm-plex-sans/300.css';
 	import '@fontsource/ibm-plex-sans/400.css';
 	import '@fontsource/ibm-plex-sans/500.css';
@@ -17,11 +15,10 @@
 	];
 </script>
 
-<!-- <Cursor /> -->
 <header class="fixed w-full z-30 backdrop-blur-[2px] border-b border-blue-1000">
 	<div class="flex justify-between h-14 items-center container">
 		<a href="/">
-			<LogoWider />
+			<Logo />
 		</a>
 		<div class="flex gap-12">
 			<nav

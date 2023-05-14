@@ -73,3 +73,30 @@ export const vendorLogoList = [
 	'vendors/transcend.svg',
 	'vendors/tripplite.svg'
 ];
+
+export const clientLogoList = [
+	'clients/ajayyptilsimatlar.svg',
+	'clients/ambafrance.svg',
+	'clients/bakybereket.svg',
+	'clients/bashtaglymturkmen.svg',
+	'clients/bdo.svg',
+	'clients/chaly.svg',
+	'clients/dagdeniz.svg',
+	'clients/eudel.svg',
+	'clients/garrylukman.svg',
+	'clients/howur.svg',
+	'clients/institutfrancais.svg',
+	'clients/keh.png',
+	'clients/kepilpikir.png',
+	'clients/menotm.svg',
+	'clients/militzermuench.svg',
+	'clients/miwelioba.png',
+	'clients/nmyoly.svg',
+	'clients/nuray.svg',
+	'clients/osce.svg',
+	'clients/pursatlyyorish.svg',
+	'clients/ternelogistics.png',
+	'clients/tyllanal.svg',
+	'clients/vinci.svg',
+	'clients/yakyndar.png'
+];

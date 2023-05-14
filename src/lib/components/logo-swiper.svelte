@@ -1,19 +1,21 @@
 <script lang="ts">
 	import { register } from 'swiper/element/bundle';
 	register();
-	import { vendorLogoList } from '$lib/data';
 
 	import { onMount } from 'svelte';
 
 	type SwiperElement = HTMLElement & { initialize: () => void };
 
+	export let swiperName: String;
+	export let src: string[];
+
 	onMount(() => {
-		const swiperEl: SwiperElement | null = document.querySelector('swiper-container');
+		const swiperEl: SwiperElement | null = document.querySelector(`.${swiperName}`);
 
 		const params = {
 			injectStyles: [
 				`
-				:host(.vendors-swiper) .swiper-wrapper {
+				:host(.${swiperName}) .swiper-wrapper {
 					-webkit-transition-timing-function: linear !important;
 					-o-transition-timing-function: linear !important;
 					transition-timing-function: linear !important;	
@@ -39,12 +41,19 @@
 	space-between="30"
 	free-mode="true"
 	loop="true"
-	class="vendors-swiper"
+	class={swiperName}
 >
-	{#each vendorLogoList as src}
-		<swiper-slide class="!w-40 rounded-lg p-4 invert flex justify-center items-center my-auto">
-			<img {src} alt="Vendor Logo" class="aspect-video object-contain" />
+	{#each src as src}
+		<swiper-slide class="!w-48 rounded-lg p-4 invert flex justify-center items-center my-auto">
+			<img {src} alt="Vendor Logo" class="object-contain" />
 			<div class="w-full h-full absolute bg-white/30" />
 		</swiper-slide>
 	{/each}
 </swiper-container>
+
+<style>
+	img {
+		width: 100%;
+		height: 6rem;
+	}
+</style>

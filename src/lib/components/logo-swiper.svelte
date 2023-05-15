@@ -54,6 +54,7 @@
 <style>
 	img {
 		width: 100%;
-		height: 6rem;
+		height: 4.5rem;
+		aspect-ratio: 16/9;
 	}
 </style>

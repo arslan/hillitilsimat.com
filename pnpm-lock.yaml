@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@fontsource/arvo':
+    specifier: ^4.5.7
+    version: 4.5.7
   '@fontsource/ibm-plex-mono':
     specifier: ^4.5.13
     version: 4.5.13
@@ -312,6 +315,10 @@ packages:
     resolution: {integrity: sha512-kf9RB0Fg7NZfap83B3QOqOGg9QmD9yBudqQXzzOtn3i4y7ZUXe5ONeW34Gwi+TxhH4mvj72R1Zc300KUMa9Bng==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/arvo@4.5.7:
+    resolution: {integrity: sha512-Vl0o67kDTzYeArRtnyzA/JNyLBektY5l/SL3lQGsvOLBNktaN46o3B8/OuS7G17dG8RaRSVTdtpBG/RHazIfDA==}
+    dev: false
 
   /@fontsource/ibm-plex-mono@4.5.13:
     resolution: {integrity: sha512-KAE7X2LgCV4X6p7vj1h2phRnhPX4YUa8FBAB0Jj9xW7Q+p+k2ce4HEAMJJ2RFHI075ClgQx+KZuDBNuiKgp5yw==}

@@ -7,6 +7,7 @@
 	import '@fontsource/ibm-plex-sans/700.css';
 	import '@fontsource/ibm-plex-mono/400.css';
 	import '@fontsource/ibm-plex-mono/500.css';
+	import '@fontsource/arvo/400.css';
 
 	const navData = [
 		{ href: '/services', name: 'Services' },
@@ -56,5 +57,19 @@
 	}
 	:global(h2) {
 		@apply text-lg;
+	}
+
+	:global(.body-link) {
+		color: rgb(229 231 235);
+		text-decoration-line: underline;
+		text-underline-offset: 4px;
+
+		transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+		transition-duration: 150ms;
+	}
+
+	:global(.body-link:hover) {
+		color: rgb(156 163 175 / 0.8);
 	}
 </style>

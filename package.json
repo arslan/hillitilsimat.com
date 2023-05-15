@@ -32,6 +32,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/arvo": "^4.5.7",
 		"@fontsource/ibm-plex-mono": "^4.5.13",
 		"@fontsource/ibm-plex-sans": "^4.5.13",
 		"@fontsource/noto-sans": "^4.5.11",

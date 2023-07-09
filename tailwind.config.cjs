@@ -5,9 +5,9 @@ module.exports = {
 		extend: {
 			colors: { 'blue-1000': 'rgb(28 29 37)' },
 			fontFamily: {
-				sans: `'IBM Plex Sans' , 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
+				sans: `'Work Sans Variable' , 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto',
 			'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', 'sans-serif'`,
-				mono: `'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`
+				mono: `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`
 			},
 			container: {
 				center: true,

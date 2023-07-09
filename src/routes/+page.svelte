@@ -7,7 +7,7 @@
 </script>
 
 <Hero />
-<About />
 <Services />
+<About />
 <Clients />
 <Cta />

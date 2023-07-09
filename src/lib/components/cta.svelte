@@ -1,4 +1,4 @@
-<section class="py-24">
+<section class="py-24" id="contact">
 	<div class="container my-8 flex flex-col gap-16">
 		<h1>Ready to transform your business?</h1>
 		<div class="text-5xl text-gray-200 flex flex-col gap-6 items-baseline">
@@ -17,5 +17,8 @@
 <style lang="postcss">
 	span {
 		@apply text-base text-gray-400 font-thin tracking-wide uppercase font-mono;
+	}
+	a {
+		color: rgb(243 244 246);
 	}
 </style>

@@ -1,34 +1,30 @@
 <script lang="ts">
 	import '../app.css';
 	import Logo from '$lib/images/logo.svelte';
-	import '@fontsource/ibm-plex-sans/300.css';
-	import '@fontsource/ibm-plex-sans/400.css';
-	import '@fontsource/ibm-plex-sans/500.css';
-	import '@fontsource/ibm-plex-sans/700.css';
-	import '@fontsource/ibm-plex-mono/400.css';
-	import '@fontsource/ibm-plex-mono/500.css';
-	import '@fontsource/arvo/400.css';
+	// Supports weights 100-900
+	import '@fontsource-variable/work-sans';
+	import Footer from '$lib/components/footer.svelte';
 
 	const navData = [
-		{ href: '/services', name: 'Services' },
-		{ href: '/works', name: 'Works' },
-		{ href: '/careers', name: 'Careers' }
+		{ href: '#services', name: 'Services' },
+		// { href: '/works', name: 'Works' },
+		{ href: 'mailto:hi@hillitilsimat.com?subject=Careers [from Website]', name: 'Careers' }
 	];
 </script>
 
-<header class="fixed w-full z-30 backdrop-blur-[2px] border-b border-blue-1000">
+<header class="sticky top-0 w-full z-30 backdrop-blur-[2px] border-b border-blue-1000">
 	<div class="flex justify-between h-14 items-center container">
 		<a href="/">
 			<Logo />
 		</a>
 		<div class="flex gap-12">
 			<nav
-				class="flex gap-8 items-center text-sm tracking-wider font-thin justify-end text-gray-300"
+				class="flex gap-8 items-center text-sm tracking-wider font-thin justify-end text-gray-400"
 			>
 				{#each navData as { href, name }}
 					<a
 						{href}
-						class="hover:text-gray-400/80 text-xs tracking-wider transition-colors duration-200 font-mono uppercase"
+						class="hover:text-gray-100 text-sm tracking-wider font-light transition-colors duration-200"
 						>{name}</a
 					>
 				{/each}
@@ -36,14 +32,18 @@
 		</div>
 	</div>
 </header>
-<slot />
+<main>
+	<slot />
+</main>
+
+<Footer />
 
 <style lang="postcss">
 	:global(body) {
 		@apply bg-black;
 	}
 	:global(p) {
-		@apply font-thin tracking-wide leading-normal text-gray-400;
+		@apply font-light tracking-wide text-gray-400;
 	}
 	:global(section) {
 		@apply border-b border-blue-1000;
@@ -60,7 +60,7 @@
 	}
 
 	:global(.body-link) {
-		color: rgb(229 231 235);
+		color: rgb(156 163 175);
 		text-decoration-line: underline;
 		text-underline-offset: 4px;
 
@@ -70,6 +70,6 @@
 	}
 
 	:global(.body-link:hover) {
-		color: rgb(156 163 175 / 0.8);
+		color: rgb(243 244 246);
 	}
 </style>

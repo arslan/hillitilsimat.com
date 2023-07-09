@@ -1,6 +1,6 @@
 <script>
 	import { servicesData } from '$lib/data';
-	import LogoWhiteFull from '$lib/images/logo-white-full.svelte';
+	import LogoWhiteFull from '$lib/images/LogoWhiteFull.svelte';
 </script>
 
 <section>

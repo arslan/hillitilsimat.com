@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import Logo from '$lib/images/logo.svelte';
+	import Logo from '$lib/images/Logo.svelte';
 	// Supports weights 100-900
 	import '@fontsource-variable/work-sans';
 	import Footer from '$lib/components/footer.svelte';

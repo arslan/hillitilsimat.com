@@ -6,6 +6,10 @@
 	import Services from '$lib/components/services.svelte';
 </script>
 
+<svelte:head>
+	<title>Hilli Tilsimat — IT Company</title>
+	<meta name="description" content="Hilli Tilsimat — a hardware and web/app development company." />
+</svelte:head>
 <Hero />
 <Services />
 <About />

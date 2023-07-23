@@ -13,6 +13,7 @@ module.exports = {
 				center: true,
 				screens: {
 					default: '1060px',
+					xs: '375px',
 					sm: '640px',
 					md: '768px',
 					lg: '1060px',

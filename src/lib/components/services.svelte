@@ -5,18 +5,18 @@
 </script>
 
 <section id="services">
-	<div class="container flex justify-center gap-12 my-20">
+	<div class="container mb-20 flex flex-col justify-center gap-12 lg:my-20 lg:flex-row">
 		{#each servicesData as { title, description, serviceList, accentColor }}
-			<div class="flex flex-col mx-auto border rounded-lg border-blue-1000 w-1/2 p-12">
+			<div class="mx-auto flex flex-col rounded-lg border border-blue-1000 p-12 lg:w-1/2">
 				<div class="flex flex-col gap-8">
 					<h1>{title}</h1>
 					<p class="">{description}</p>
-					<div class="flex flex-col gap-3 mb-12">
+					<div class="mb-12 flex flex-col gap-3">
 						{#each serviceList as { name, href }}
 							<a
 								{href}
 								class={classnames(
-									`font-light text-gray-300 flex gap-2 ease-out hover:gap-3 transition-all text-sm tracking-wider items-center`,
+									`flex items-center gap-2 text-sm font-light tracking-wider text-gray-300 transition-all ease-out hover:gap-3`,
 									`${accentColor}`
 								)}
 								>{name}

@@ -12,14 +12,14 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 <section class="py-20">
-	<div class="border-blue-1000 border w-full rounded-3xl p-12 container">
+	<div class="container w-full rounded-3xl border border-blue-1000 p-12">
 		<h1
-			class="uppercase tracking-wide font-extrabold text-4xl text-transparent bg-gradient-to-r from-green-600 to-green-300 bg-clip-text"
+			class="bg-gradient-to-r from-green-600 to-green-300 bg-clip-text text-3xl font-extrabold uppercase tracking-wide text-transparent lg:text-4xl"
 		>
 			{webdevPage.title}
 		</h1>
 		<h2
-			class="rounded-full w-fit py-2 px-4 my-5 uppercase text-xs bg-green-900/40 text-green-600 font-bold"
+			class="my-5 w-fit rounded-full bg-green-900/40 px-4 py-2 text-xs font-bold uppercase text-green-600"
 		>
 			{webdevPage.hero.header}
 		</h2>

@@ -12,24 +12,20 @@
 	];
 </script>
 
-<header class="sticky top-0 w-full z-30 backdrop-blur-[2px] border-b border-blue-1000">
-	<div class="flex justify-between h-14 items-center container">
+<header class="sticky top-0 z-30 w-full border-b border-blue-1000 backdrop-blur-[2px]">
+	<div class="container flex h-24 items-center justify-between px-4 lg:mx-auto lg:h-14">
 		<a href="/">
 			<Logo />
 		</a>
-		<div class="flex gap-12">
-			<nav
-				class="flex gap-8 items-center text-sm tracking-wider font-thin justify-end text-gray-400"
-			>
-				{#each navData as { href, name }}
-					<a
-						{href}
-						class="hover:text-gray-100 text-sm tracking-wider font-light transition-colors duration-200"
-						>{name}</a
-					>
-				{/each}
-			</nav>
-		</div>
+		<nav class="flex gap-8 text-gray-400">
+			{#each navData as { href, name }}
+				<a
+					{href}
+					class="text-base font-light tracking-wider transition-colors duration-200 hover:text-gray-100 lg:text-sm"
+					>{name}</a
+				>
+			{/each}
+		</nav>
 	</div>
 </header>
 <main>

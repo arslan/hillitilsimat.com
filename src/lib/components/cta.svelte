@@ -1,7 +1,7 @@
 <section class="py-24" id="contact">
 	<div class="container my-8 flex flex-col gap-16">
 		<h1>Ready to transform your business?</h1>
-		<div class="text-5xl text-gray-200 flex flex-col gap-6 items-baseline">
+		<div class="flex flex-col items-baseline gap-6 text-3xl text-gray-200 lg:text-5xl">
 			<div>
 				<span>Email/</span>
 				<a href="mailto:hi@hillitilsimat.com" class="body-link">hi@hillitilsimat.com</a>
@@ -16,7 +16,7 @@
 
 <style lang="postcss">
 	span {
-		@apply text-base text-gray-400 font-thin tracking-wide uppercase font-mono;
+		@apply font-mono text-base font-thin uppercase tracking-wide text-gray-400;
 	}
 	a {
 		color: rgb(243 244 246);

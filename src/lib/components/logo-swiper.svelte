@@ -22,7 +22,6 @@
 				`
 			]
 		};
-		console.log(swiperEl);
 		Object.assign(swiperEl!, params);
 
 		swiperEl?.initialize();
@@ -44,9 +43,9 @@
 	class={swiperName}
 >
 	{#each src as src}
-		<swiper-slide class="!w-48 rounded-lg p-4 invert flex justify-center items-center my-auto">
+		<swiper-slide class="my-auto flex !w-48 items-center justify-center rounded-lg p-4 invert">
 			<img {src} alt="Vendor Logo" />
-			<div class="w-full h-full absolute bg-white/30" />
+			<div class="absolute h-full w-full bg-white/30" />
 		</swiper-slide>
 	{/each}
 </swiper-container>

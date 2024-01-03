@@ -12,33 +12,37 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.1.0",
-		"@sveltejs/kit": "^1.20.5",
-		"@typescript-eslint/eslint-plugin": "^5.60.0",
-		"@typescript-eslint/parser": "^5.60.0",
-		"autoprefixer": "^10.4.14",
-		"eslint": "^8.43.0",
-		"eslint-config-prettier": "^8.8.0",
-		"eslint-plugin-svelte": "^2.31.1",
-		"postcss": "^8.4.24",
-		"prettier": "^2.8.8",
-		"prettier-plugin-svelte": "^2.10.1",
-		"prettier-plugin-tailwindcss": "^0.3.0",
-		"svelte": "^4.0.0",
-		"svelte-check": "^3.4.4",
-		"tailwindcss": "^3.3.2",
-		"tslib": "^2.5.3",
-		"typescript": "^5.1.3",
-		"vite": "^4.3.9"
+		"@sveltejs/adapter-auto": "^3.0.1",
+		"@sveltejs/kit": "^2.0.6",
+		"@sveltejs/vite-plugin-svelte": "^3.0.1",
+		"@typescript-eslint/eslint-plugin": "^6.17.0",
+		"@typescript-eslint/parser": "^6.17.0",
+		"autoprefixer": "^10.4.16",
+		"eslint": "^8.56.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.35.1",
+		"postcss": "^8.4.32",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"prettier-plugin-tailwindcss": "^0.5.10",
+		"svelte": "^4.2.8",
+		"svelte-check": "^3.6.2",
+		"tailwindcss": "^3.4.0",
+		"tslib": "^2.6.2",
+		"typescript": "^5.3.3",
+		"vite": "^5.0.10"
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource-variable/work-sans": "^5.0.4",
-		"@fontsource/arvo": "^5.0.3",
-		"@fontsource/ibm-plex-mono": "^5.0.3",
-		"@fontsource/ibm-plex-sans": "^5.0.3",
-		"@fontsource/noto-sans": "^5.0.3",
-		"classnames": "^2.3.2",
-		"swiper": "^9.4.1"
+		"@fontsource-variable/work-sans": "^5.0.17",
+		"@fontsource/arvo": "^5.0.18",
+		"@fontsource/ibm-plex-mono": "^5.0.8",
+		"@fontsource/ibm-plex-sans": "^5.0.18",
+		"@fontsource/noto-sans": "^5.0.18",
+		"classnames": "^2.5.1",
+		"swiper": "^11.0.5"
+	},
+	"peerDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^3.0.1"
 	}
 }
